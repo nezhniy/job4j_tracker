@@ -18,9 +18,9 @@ public class TriangleTest {
 
     @Test
     public void whenNoTriangleExist() {
-        Point a = new Point(4, 12);
-        Point b = new Point(4, 0);
-        Point c = new Point(0, 4);
+        Point a = new Point(4, 4);
+        Point b = new Point(1, 1);
+        Point c = new Point(0, 0);
         Triangle triangle = new Triangle(a, b, c);
         double rsl = triangle.area();
         double expected = -1;
