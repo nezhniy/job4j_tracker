@@ -19,4 +19,6 @@ public class Student {
         petya.song();
         petya.song();
     }
+
+    //этот класс был создан ранее
 }
