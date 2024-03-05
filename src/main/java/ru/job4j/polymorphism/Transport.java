@@ -5,7 +5,7 @@ public interface Transport {
 
     void passengers (int count);
 
-    default int fuel(int l) {
+    default int fuel (int l) {
         return l * 50;
     }
 }
